@@ -113,4 +113,4 @@ def run(filename):
         elif command['op'] == 'display':
             display(screen)
         elif command['op'] == 'save':
-            save_extension(screen,command['args'][0])
+            save_extension(screen,command['args'][0] + '.png')
